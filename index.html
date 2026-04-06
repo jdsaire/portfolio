@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Styles — Graphic Designer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Alex Styles</a>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li>
+            <a href="#about" class="nav-link" data-tooltip="Learn about Alex">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" data-tooltip="View selected works">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-tooltip="Get in touch">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / About Me -->
+  <section id="about" class="section section--about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <span class="eyebrow">Graphic Designer &amp; Visual Storyteller</span>
+        <h1 class="about-heading">Hi, I'm <span class="accent">Alex Styles</span></h1>
+        <p class="about-bio">
+          I craft compelling visual identities, brand systems, and digital experiences that connect with audiences. With over 6 years in the industry, I blend strategy with aesthetics to bring ideas to life.
+        </p>
+        <div class="skills">
+          <span class="skill-tag">Brand Identity</span>
+          <span class="skill-tag">UI/UX Design</span>
+          <span class="skill-tag">Typography</span>
+          <span class="skill-tag">Motion Graphics</span>
+          <span class="skill-tag">Illustration</span>
+        </div>
+        <a href="#portfolio" class="btn btn--primary">View My Work</a>
+      </div>
+      <div class="about-visual" aria-hidden="true">
+        <div class="avatar-placeholder">
+          <span>AS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section section--portfolio">
+    <div class="container">
+      <h2 class="section-title">Selected Works</h2>
+      <p class="section-subtitle">Click any project to learn more</p>
+      <div class="portfolio-grid">
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Bloom Branding System"
+          data-description="A complete visual identity for Bloom, an eco-conscious skincare startup. This project included logo design, color palette development, packaging concepts, and a brand guidelines document delivered to the client in 3 weeks.">
+          <div class="card-thumb card-thumb--1"></div>
+          <div class="card-info">
+            <h3 class="card-title">Bloom Branding System</h3>
+            <p class="card-category">Brand Identity</p>
+          </div>
+        </article>
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Nomad Travel App UI"
+          data-description="End-to-end UI/UX design for Nomad, a travel planning app. I conducted user interviews, built wireframes, prototyped in Figma, and delivered a pixel-perfect design system ready for developer handoff.">
+          <div class="card-thumb card-thumb--2"></div>
+          <div class="card-info">
+            <h3 class="card-title">Nomad Travel App UI</h3>
+            <p class="card-category">UI/UX Design</p>
+          </div>
+        </article>
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Volta Editorial Campaign"
+          data-description="Art direction and typography design for Volta Magazine's annual sustainability issue. This included cover design, spread layouts, infographic design, and print-ready file preparation.">
+          <div class="card-thumb card-thumb--3"></div>
+          <div class="card-info">
+            <h3 class="card-title">Volta Editorial Campaign</h3>
+            <p class="card-category">Editorial Design</p>
+          </div>
+        </article>
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Rêve Motion Graphics"
+          data-description="A series of animated brand assets for Rêve, a luxury fragrance house. Deliverables included logo animations, social media story templates, and a 30-second brand film opening sequence.">
+          <div class="card-thumb card-thumb--4"></div>
+          <div class="card-info">
+            <h3 class="card-title">Rêve Motion Graphics</h3>
+            <p class="card-category">Motion Design</p>
+          </div>
+        </article>
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Meridian Web Redesign"
+          data-description="Full responsive website redesign for Meridian Architecture. I led discovery workshops, created site maps and wireframes, designed high-fidelity mockups, and collaborated with a development team for implementation.">
+          <div class="card-thumb card-thumb--5"></div>
+          <div class="card-info">
+            <h3 class="card-title">Meridian Web Redesign</h3>
+            <p class="card-category">Web Design</p>
+          </div>
+        </article>
+
+        <article class="portfolio-card" tabindex="0"
+          data-title="Kora Packaging Design"
+          data-description="Sustainable packaging design for Kora, an organic food brand. The project focused on minimalist aesthetics, earthy color palettes, and print finishing specifications including embossing and recycled stock.">
+          <div class="card-thumb card-thumb--6"></div>
+          <div class="card-info">
+            <h3 class="card-title">Kora Packaging Design</h3>
+            <p class="card-category">Packaging</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section--contact">
+    <div class="container contact-grid">
+      <div class="contact-intro">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-text">Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 48 hours.</p>
+        <p class="contact-detail"><strong>Email:</strong> hello@alexstyles.design</p>
+        <p class="contact-detail"><strong>Based in:</strong> New York, NY</p>
+      </div>
+      <form class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Alex Styles. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-body" id="modal-body"></p>
+      <a href="#portfolio" class="btn btn--secondary modal-cta" id="modal-close-btn">Back to Portfolio</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
